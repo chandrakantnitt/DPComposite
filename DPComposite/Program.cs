@@ -10,6 +10,9 @@ namespace DPComposite
     {
         static void Main(string[] args)
         {
+            //IComponent<T> c = new Component<T>();
+           
+
         }
     }
 }
