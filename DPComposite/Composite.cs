@@ -44,12 +44,9 @@ namespace DPComposite
             foreach (var item in list)
             {
                 foundComponent = item.Find(searchItem);
-                if(item.Equals(searchItem))
+                if (foundComponent != null)
                 {
-                    if(foundComponent != null)
-                    {
-                        break;
-                    }                   
+                    break;
                 }
             }
             return foundComponent;
