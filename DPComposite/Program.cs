@@ -26,7 +26,6 @@ namespace DPComposite
             var searchComponent = plant.Find("Tube3");
             Console.WriteLine(searchComponent.Display(4));
 
-
             Console.ReadKey();
         }
     }
